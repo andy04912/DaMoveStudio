@@ -55,7 +55,7 @@ export default function Navbar() {
             <Link href="#gallery" onClick={(e) => handleScroll(e, "#gallery")} className="hover:text-amber-500 transition-colors">作品鑑賞</Link>
             <Link href="#process" onClick={(e) => handleScroll(e, "#process")} className="hover:text-amber-500 transition-colors">訂製流程</Link>
             <Link href="#story" onClick={(e) => handleScroll(e, "#story")} className="hover:text-amber-500 transition-colors">品牌理念</Link>
-            <Link href="/admin" className="hover:text-amber-500 transition-colors">後台管理</Link>
+            {/* <Link href="/admin" className="hover:text-amber-500 transition-colors">後台管理</Link> */}
         </div>
 
         <Link
